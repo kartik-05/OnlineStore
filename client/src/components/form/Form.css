@@ -1,0 +1,85 @@
+.form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #006AC5;
+    height: 74vh;
+    width: 22vw;
+    border-radius: 20px;
+    flex-direction: column;
+    position: relative;
+    border: 7px solid #1090ff;
+}   
+
+
+.form-container > form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;   
+}
+
+.form-container > form > h2{
+    color: #e4f2ff;
+}
+
+
+.form-container > form > input{
+    font-size:0.9rem;
+    outline: none;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 10px;
+    color: black;
+    margin-top: 20px;
+    width: 15vw;
+}
+
+#form-desp{
+    font-size:0.9rem;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 5px 15px;
+}
+
+.form-submit-button{
+    background-color: #25445e;
+    font-size:1rem;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 8px 15px;
+    margin-top: 10px;
+    width: 17vw;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form-clear-button , .form-delete-button{
+    background-color: #1090ff;
+    color: black;
+    font-size:1rem;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 8px 15px;
+    margin-top: 10px;
+    width: 17vw;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form-delete-button{
+    background-color: #ff2b2b;
+}
+
+.form-container-close{
+    position: absolute;
+    top:3%;
+    right: 6%;
+    font-weight: 800;
+    cursor: pointer;
+}

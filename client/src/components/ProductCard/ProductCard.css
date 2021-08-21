@@ -1,0 +1,123 @@
+.product-card-super-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.product-card-container{
+    display: flex;
+    align-items: center;
+    width: 17vw;
+    border-radius: 10px 10px 0px 0px; 
+    background: rgba(255, 255, 255,1);
+    color: black;
+    flex-direction: column;
+    height: 45vh;
+    position: relative;
+    overflow: scroll;
+    border-top: 10px solid rgb(45, 129, 255);
+}
+.product-card-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+}
+.product-card-image > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-card-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 18vw;
+    color: black;
+    margin-top: 10px;
+    border-bottom: 1px solid black;
+    padding-bottom: 7px;
+}
+
+.product-card-name{
+    color: black;
+    margin-left: 5%;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.product-card-price{
+    color:black;
+    margin-right: 5%;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.product-card-desp{
+    color: black;
+    font-size: 0.8rem;
+    margin: 10px 0px;
+    width: 16vw;
+    font-weight: 600;;
+}
+
+.product-card-desp > b{
+    color: black;
+    font-weight: 700;
+}
+
+.product-card-container > .MuiSvgIcon-root{
+    fill: black;
+    cursor: pointer;
+}
+
+.product-card-edit{
+    position: absolute;
+    top:4%;
+    right: 4%;
+}
+
+.product-card-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.product-card-buttons > button{
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    width: 8.5vw;
+    cursor: pointer;
+    border-bottom: 8px solid #2d81ff;
+}
+
+.product-card-wishlist{
+    background: #eeff00;
+    border-radius: 0px 0px 0px 10px;
+}
+.product-card-buy{
+    background: tomato;
+    border-radius: 0px 0px 10px 0px;
+}
+
+.product-card-wishlist > .MuiSvgIcon-root{
+    fill: black;
+}
+.product-card-buy > .MuiSvgIcon-root{
+    fill: black;
+}
+
+.product-card-done-all{
+    position: absolute;
+    top:4%;
+    left: 5%;
+}
